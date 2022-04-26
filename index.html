@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio Fernando</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="style.css">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-- Criando barra de navegação -->
+  <nav class="navbar navbar navbar-light bg-white navbar-expand-lg fixed-top navbarScroll">
+    <div class="container">
+        <a class="navbar-brand" href="#">Fernando Bertoncello Bellelis</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                
+            </ul>
+            
+        </div>
+    </div>
+</nav>
+
+ <!-- Criando um hero header -->
+ <section class="img" id="home">
+  <div class="container-fluid">
+      <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero_text">
+          <h2 class="title">Sup, I'm Fernando</h2>
+          <p class="summary">A data science student looking to be a cientist</p>
+      </div>
+      </div>
+  </div>
+</section>
+
+<!-- Criando uma about section-->
+<section id="about">
+  <div class="container mt-4 pt-4">
+      <h1 class="text-center">About Me</h1>
+      <div class="row mt-4">
+          <div class="col-lg-4">
+              <img src="images/about.jpeg" class= "imageAboutPage" alt="">
+          </div>
+
+          <div class="col-lg-8">
+              <p> Im a backend dev looking to be a fullstack programer and a speciallist on artificial intelligence.
+                  
+              </p>
+              <div class="row mt-3">
+                  <div class="col-md-6">
+                      <ul>
+                          <li>Name: Fernando Bertoncello Bellelis</li>
+                          <li>Age: 20</li>
+                          <li>Occupation: Backend dev</li>
+
+                      </ul>
+                  </div>
+                  
+              </div>
+              <div class="row mt-3">
+                  <p> I started programming since I turned 16, it was a way to ignore all of the boring classes I had to take in order to graduate, when I was young the only career path that was clear to me was solving problems with technology. Even tho I didn't know how to solve certain problems, my stuborness would help me walk and find a solution to whatever script I was stuck with. All of the programing languages I learned, all of the languages I speak, all of the frameworks I worked with and all of the experience I got, was not me trying to achieve a goal, it was me trying to learn something i didn't know, what moves me is my aspiration for knowledge.
+
+                  </p>
+              </div>
+          </div>
+      </div>
+</section>
+
+<!-- Criando uma lista de coisas que eu posso fazer-->
+<section id="services">
+  <div class="container">
+      <h1 class="text-center">Services</h1>
+      <div class="row">
+          <div class="col-lg-4 mt-4">
+              <div class="card servicesText">
+                  <div class="card-body">
+                      <i class="fas servicesIcon fa-brain"></i>
+                      <h4 class="card-title mt-3">ML dev</h4>
+                      <p class="card-text mt-3">Some tasks are better suited for machines, tasks that involves repetitive actions in which a human can get tired easily, and ML is a really good solution for repetitive tasks such as: writting down car plates, watching for weird movements on a park and even recognizing someone's face through a camera. The implementation of solutions that can help in super specific scenarios using Machine learning algorythms.
+                      </p>
+                  </div>
+              </div>  
+          </div>
+          <div class="col-lg-4 mt-4">
+              <div class="card servicesText">
+                  <div class="card-body">
+                      <i class='fas servicesIcon fa-layer-group'></i>
+                      <h4 class="card-title mt-3">Backend dev</h4>
+                      <p class="card-text mt-3">Backend is simply the processes running while you press a button on a site, a lot can be done using only front-end tools, but everything has a limit, and the services backend devs can provide are simply limitless, from starting a new software to updating multiple systems.
+                      </p>
+                  </div>
+              </div>  
+          </div>
+
+          <div class="col-lg-4 mt-4">
+              <div class="card servicesText">
+                  <div class="card-body">
+                      <i class='far servicesIcon fa-check-circle'></i>
+                      <h4 class="card-title mt-3">Data management</h4>
+                      <p class="card-text mt-3">Data can be anything, and to get all of this data and make value out of that data is something that is crucial for more sofisticated applications and services, information is fecthed from various sources and the analyzes of all that would be called data management, building AI tools that use this data can easily automate most processes of a company.
+                      </p>
+                  </div>
+              </div>  
+          </div>
+      </div>
+      </div>
+  </div>
+</section>
+    <script src="script/script.js"></script>
+</body>
+</html>
